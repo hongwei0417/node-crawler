@@ -1,0 +1,27 @@
+{
+  "name": "js-crawler-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.17.1",
+    "htmlparser2": "^4.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.10.1",
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
+    "@babel/preset-env": "^7.10.2"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js --inspect=10000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
