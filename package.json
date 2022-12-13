@@ -6,7 +6,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "cheerio": "^1.0.0-rc.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "htmlparser2": "^4.1.0",
     "https-proxy-agent": "^5.0.0",
     "moment": "^2.27.0",
